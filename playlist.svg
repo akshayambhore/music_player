@@ -1,0 +1,20 @@
+ <svg class="invert" width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Circular background -->
+                                    <circle cx="24" cy="24" r="24" fill="none" stroke="black" stroke-width="2" />
+                                
+                                    <!-- Play icon (black outline) -->
+                                    <path d="M18 15L32 24L18 33V15Z" fill="none" stroke="black" stroke-width="2" />
+                                
+                                    <!-- Hover animation (optional) -->
+                                    <style>
+                                        svg {
+                                            transition: transform 0.2s ease;
+                                            border-radius: 50%;
+                                            cursor: pointer;
+                                        }
+                                
+                                        svg:hover {
+                                            transform: scale(1.05);
+                                        }
+                                    </style>
+                                </svg>
