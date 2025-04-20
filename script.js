@@ -26,7 +26,7 @@ function sbar()
 
 
 async function getlist() {
-    let a= await fetch("http://127.0.0.1:3000/song");
+    let a= await fetch("song");
     let Response=await a.text();
     let div=document.createElement("div");
     div.innerHTML=Response;
